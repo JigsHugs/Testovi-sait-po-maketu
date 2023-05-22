@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap'); 
+            body {
+            margin: 0;
+}
+
+            header {
+            height: 890px;
+            
+}
+
+        footer {
+            height: 151px;
+            background: #f7654a;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            color:#ffffff
+            
+}
+    footer button {
+        font-family:"Oswald";
+    position: absolute;
+    width: 175px;
+    height: 49px;
+    left: 1340px;
+    top: 1894px;
+    float: right;
+    background: #fff;
+    border: none;
+    width: 175px;
+    height: 49;
+    color:#000000 ;
+    cursor: pointer;
+    padding : 14px 30px;
+    text-align: right;
+}
+footer button::before {
+content:'';
+float: left;
+height: 15px;
+width: 18px;
+background: url('asdpochta.svg') ;
+margin-top: 4px;
+}
+h3 {
+    position: absolute;
+    width: 586px;
+    height: 57px;
+    left: 405px;
+    top: 1851px;
+    font-family:"Oswald";
+   font-size: 48px;
+   line-height: 71px;
+   margin:  0;
+}
+h6 {
+    position: absolute;
+    width: 562px;
+    height: 29px;
+    left: 405px;
+    top: 1928px;
+    font-family:"Oswald";
+    font-size: 24px;
+   line-height: 36px;
+   margin: 0 ;
+}
+main {
+    height: 931px;
+}
+        .container {
+            width: 1110px;
+            margin: 0 auto;
+            
+            
+}
+    .top .container { 
+        padding-top: 192px;
+        position: relative;
+    }
+    .top {
+        height: 740px;
+        
+        box-sizing: border-box;
+        background: linear-gradient(0deg, rgba(64, 65, 73, 0.9), rgba(64, 65, 73, 0.9)), url(mostmost.jpg) center no-repeat, #404149;
+        text-align: center;
+        
+}
+    .top h1 {
+        font-family:"Oswald";
+        margin: 0 auto;
+        width: 755px;
+        color: #fff;
+        font-size: 64px;
+        line-height: 95px;
+        font-weight: 500;
+        text-align:center;
+        letter-spacing: 0.02em;
+}
+    .top h4 {
+        font-family:"Oswald";
+        margin: 17px auto 0;
+        width: 734px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+        text-align:center;
+        text-transform:uppercase ;
+    }
+    .logo {
+       text-indent: -9999px; 
+       position: absolute;
+       top: 30px;
+       left: 0;
+       width: 60px;
+       height: 50px;
+       background: url('logo.svg') ;
+    }
+    header button{
+       position: absolute;
+       top: 30px;
+       right: 0;
+       width: 50px;
+       height: 50px;
+       background-color: #f7654a;
+       border: none;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 0;
+       filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.918));
+       background: url('menu-gamburger.svg');
+       cursor: pointer;
+       box-shadow: 0px 4px 4px rgba(252, 249, 249, 0.25);
+       
+    }
+    .menu {
+        box-sizing: border-box;
+        height: 300px;
+        background: #F7F7F7;
+        margin-top: -150px ;
+        text-align: center ;
+        padding: 35px;
+    }
+    .menu-item {
+        font-size: 45px;
+        font-family:"Oswald";
+        display: inline-block;
+        text-align: top;
+        background-color: #ffffff;
+        display: inline-block;
+        margin: 15px;
+        width: 190px;
+        height: 200px;
+        text-transform: uppercase;
+        vertical-align: top;
+    }
+    
+    .menu-item-number {
+        margin: 0 0 25px 0;
+        padding: 0;
+        height: 86px;
+        font-size: 72px;
+        line-height: 107px;
+        color: #F7654A;
+    }
+    
+    .menu-item-year {
+        margin: 0 0 10px 0;
+        height: 43px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 53px;
+    }
+    
+    .menu-item-market {
+        margin: 5px 0;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #999999;
+    }
+    
+    section {
+        margin: 0;
+        padding: 100px 0 150px;
+        height: 681px;
+    }
+ .body-item {
+    vertical-align: top;
+    margin-right: 30px;
+    display: inline-block;
+    height: 681px;
+    width: 1110px;
+    padding-bottom: 7px;
+ }
+ main p {
+    font-size: 16px;
+    width: 350px;
+    height: 83px;
+ }
+ img { 
+    display: block;
+    height: 380px;
+    width: 350;
+    margin-bottom: 66px;
+}
+h2 {
+    white-space: nowrap;
+    text-align: center;
+    padding: 0;
+    margin-left: 600px ;
+    font-size: 36px;
+    line-height: 53px;
+    
+    text-transform: uppercase;
+}
+ 
+ul {
+    margin: 0;
+    padding: 0 ;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    width: 350px;
+}
+
+li:not(:last-child) {
+    margin-right: 30px;
+}
+
+li img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 60px;
+}
+ main .container {
+    box-sizing: border-box;
+    padding-bottom: 7px;
+    display: inline-block;
+ }
+
+ .menu-item1 {
+    display: inline-block;
+ }
